@@ -3,6 +3,6 @@
  * included in this file.
  */
 
-li.wc_payment_method.payment_method_zlp > label > img{
-            width: 75px;
+.woocommerce-checkout #payment ul.payment_methods li img {
+   width: 75px !important;
 }
