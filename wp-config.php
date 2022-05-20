@@ -26,7 +26,7 @@ define( 'DB_NAME', 'zalopay_store_wp' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'Abcd@1234' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
