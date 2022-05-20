@@ -2,3 +2,7 @@
  * All of the CSS for your admin-specific functionality should be
  * included in this file.
  */
+
+#payment_method_zlp lable img{
+            width: 75px;
+}
