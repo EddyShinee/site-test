@@ -3,6 +3,6 @@
  * included in this file.
  */
 
-li.payment_method_zlp label img{
+li.wc_payment_method.payment_method_zlp > label > img{
             width: 75px;
 }
