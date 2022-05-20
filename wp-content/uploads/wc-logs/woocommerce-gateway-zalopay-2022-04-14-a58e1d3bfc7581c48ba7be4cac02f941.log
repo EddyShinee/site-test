@@ -1,0 +1,96 @@
+2022-04-14T12:15:53+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+create postData: Array
+(
+    [app_id] => 2554
+    [app_user] => admin
+    [app_trans_id] => 220414_6257ae09d3557
+    [app_time] => 1649913353866
+    [amount] => 90000
+    [description] => Payment for order #30
+    [item] => [{"Sản phẩm test thanh toán":{"quantity":1,"price":"90000"}}]
+    [embed_data] => {"redirecturl":"http:\/\/localhost:8888\/zalopaystore?order-received=30&key=wc_order_POczYy8Ivvt1e&page_id=20","orderID":30}
+    [bank_code] => zalopayapp
+    [mac] => 669349b67adf2640cd21a4ec37cade31c9b8a50b60f0219395f5531ee5b0dfbc
+    [source] => web
+)
+
+====End Log====
+
+
+2022-04-14T12:15:53+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+create endpoint: https://sb-openapi.zalopay.vn/v2/create
+====End Log====
+
+
+2022-04-14T12:16:39+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 220414_6257ae09d3557
+    [mac] => 09068bb480017e730e4040bd5bc980c58bd85ba3865fc7437801d4c47ede3680
+)
+
+====End Log====
+
+
+2022-04-14T12:16:39+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-04-14T16:51:42+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+create postData: Array
+(
+    [app_id] => 2554
+    [app_user] => admin
+    [app_trans_id] => 220414_6257eeaed73aa
+    [app_time] => 1649929902882
+    [amount] => 90000
+    [description] => Payment for order #31
+    [item] => [{"Sản phẩm test thanh toán":{"quantity":1,"price":"90000"}}]
+    [embed_data] => {"redirecturl":"http:\/\/localhost:8888\/zalopaystore?order-received=31&key=wc_order_c5Etvr4lI90vi&page_id=20","orderID":31}
+    [bank_code] => zalopayapp
+    [mac] => d7d1a3794f49f7f005ad89bc930d392c55f8db9fef470133de5c4f0ff20a7d1c
+    [source] => web
+)
+
+====End Log====
+
+
+2022-04-14T16:51:42+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+create endpoint: https://sb-openapi.zalopay.vn/v2/create
+====End Log====
+
+
+2022-04-14T16:51:57+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 220414_6257eeaed73aa
+    [mac] => fd7ceee2de801bef6ca5982632ba1bba445a097178ff1c0cc0093316288e38a0
+)
+
+====End Log====
+
+
+2022-04-14T16:51:57+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
