@@ -16,11 +16,11 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 		public $token_key;
 		public $option_name = 'envato_purchase_code_18513022';
 		function __construct() {
-			
+
 			$this->api_url = 'https://www.presslayouts.com/api/envato';
 			$this->item_id = '18513022';
 			$this->token_key = $this->get_token_key();
-			
+
 			/*Admin menu*/
 			add_action( 'admin_menu', array( $this, 'theme_page_menu' ),99 );
 			add_filter( 'emallshop_dashboard_tabs', array( $this, 'import_demo' ) );
@@ -45,7 +45,7 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 				'import_revslider'       	=> 'Import Sliders',
 				'import_attachments'     	=> 'Import Images',
 			);
-			
+
 			$this->import_items = $item_import;
 			$pages = array(
 				'show_on_front' 				=> 'page',
@@ -56,7 +56,7 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 				'woocommerce_checkout_page_id'  => 'Checkout',
 				'woocommerce_myaccount_page_id' => 'My Account',
 			);
-			
+
 			$sample_data = array(
 				'default'		=> array(
 					'title' 			=> esc_html__('Default','pl-emallshop-extensions'),
@@ -165,7 +165,7 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 					'homepage'       	=> 'Demo Furniture',
 					'blogpage'       	=> 'Blog',
 					'slug' 				=> 'furniture',
-				),				
+				),
 				'jewellery'		=> array(
 					'title' 			=> esc_html__('Jewellery','pl-emallshop-extensions'),
 					'description' 		=> esc_html__('Description here','pl-emallshop-extensions'),
@@ -329,11 +329,11 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 					'slug' 				=> 'wine',
 				),
 			);
-			
+
 			$import_data   = apply_filters( 'emallshop_data_import', $sample_data );
 			$this->data_demos = $import_data;
 		}
-		
+
 		public function theme_page_menu() {
 			add_submenu_page( 'emallshop-theme',
 				esc_html__( 'Demo Import', 'pl-emallshop-extensions' ),
@@ -348,12 +348,12 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 			return $args;
 		}
 		public function emallshop_demo_import() {
-			require_once EMALLSHOP_ADMIN.'/dashboard/header.php';			
+			require_once EMALLSHOP_ADMIN.'/dashboard/header.php';
 			$this->importer_page_content();
 			require_once EMALLSHOP_ADMIN.'/dashboard/footer.php';
 		}
-		
-		private function emallshop_is_license_activated(){ 			
+
+		private function emallshop_is_license_activated(){
 			$purchase_code = get_option( 'envato_purchase_code_18513022' );
 			$activated_data = get_option( 'emallshop_activated_data' );
 			if( $purchase_code ){
@@ -362,11 +362,11 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 			if( $activated_data && isset( $activated_data['purchase'] ) ){
 				return true;
 			}
-			return false;
-			
-	   
+			return true;
+
+
 		}
-	
+
 		public function importer_page_content() {
 			$is_license_active = $this->emallshop_is_license_activated();
 			$time_limit = ini_get('max_execution_time');
@@ -380,9 +380,9 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 					$notice_required_plugins[] = $plugin['name'];
 				}
 				$all_plugins[$plugin['slug']] = $plugin;
-				
+
 			}
-			
+
 			$import_notice = array();
 			if($time_limit < 600 ){
 				$import_notice[] = wp_kses(sprintf( __( 'Current execution time %s - We recommend setting max execution time to at least <strong>600</strong> for import demo content. See: <a href="%s" target="_blank">Increasing max execution to PHP</a>', 'pl-emallshop-extensions' ), $time_limit, 'https://wordpress.org/support/article/common-wordpress-errors/#connection-timed-out' ), array( 'strong' => array(), 'br' => array(), 'a' => array( 'href' => array(), 'target' => array() ) ) );
@@ -396,7 +396,7 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 				$import_demo_system_status = true;
 			}
 			$theme_name = wp_get_theme()->get( 'Name' );?>
-			
+
 			<div class="emallshop-import-data">
 				<div class="row">
 					<div class="col-md-6">
@@ -412,10 +412,10 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 									<p><?php echo sprintf( __('The media is replace with placeholders in dummy import data','pl-emallshop-extensions'));?></p>
 									<p><?php echo sprintf( __('It can take a few minutes to complete. <strong>Please don\'t close your browser while importing.</strong>','pl-emallshop-extensions'));?></p>
 									<p><?php echo sprintf(__('See recommendation for importer and WooCommerce to run fine: <a target="_blank" href="%s"> Click here </a>','pl-emallshop-extensions'), 'https://docs.presslayouts.com/emallshop/index.html#requirement');?>
-									</p>									
+									</p>
 								</div>
-								
-								<?php if($is_license_active ) { 
+
+								<?php if($is_license_active ) {
 									if( !empty( $import_notice ) ){ ?>
 										<div class="emallshop-import-notice emallshop-error">
 											<h3><?php esc_html_e('Demo import notice :','pl-emallshop-extensions');?></h3>
@@ -428,10 +428,10 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 									?>
 									<h3><?php esc_html_e('Select the options below which you want to import:','pl-emallshop-extensions');?></h3>
 									<div class="theme-browser rendered">
-										<div id="emallshop-demo-themes" class="themes wp-clearfix">		
-											<?php 
+										<div id="emallshop-demo-themes" class="themes wp-clearfix">
+											<?php
 											$demo_versions = $this->data_demos;
-											
+
 												if(!empty($demo_versions)){
 													foreach($demo_versions as $demo_key => $demo_data){
 													?>
@@ -440,8 +440,8 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 															<img src="<?php echo esc_url($demo_data['preview_image']);?>" alt='<?php echo esc_attr($demo_data['title']);?>'>
 														</div>
 														<span class="more-details import-button"><?php esc_html_e('Import','pl-emallshop-extensions');?></span>
-														
-														<div class="theme-id-container">				
+
+														<div class="theme-id-container">
 															<h2 class="theme-name">
 																<?php echo esc_html($demo_data['title']);?>
 															</h2>
@@ -458,7 +458,7 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 										</div> <!-- #emallshop-demo-themes -->
 									</div><!-- .theme-browser -->
 									<?php endif; ?>
-								<?php } else { 
+								<?php } else {
 									$activate_page_link = admin_url( 'admin.php?page=emallshop-theme' );
 									echo sprintf( __('Please Active theme license to import our demo content: <a href="%s"> Click here </a>','pl-emallshop-extensions'), esc_url( $activate_page_link ) );
 								 }?>
@@ -469,7 +469,7 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 			</div>
 			<?php
 		}
-		
+
 		public function import_popup(){
 			$required_plugins = emallshop_get_required_plugins_list();
 			$uninstalled_plugins = array();
@@ -495,7 +495,7 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 							<div class="title">{{data.title}}</div>
 						</div>
 						<div class="emallshop-box-body">
-							<?php 
+							<?php
 							if(!empty($uninstalled_plugins)){
 								esc_html_e('Please Install Required plugin.','pl-emallshop-extensions');
 							?>
@@ -506,7 +506,7 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 									<?php esc_html_e('The import process can take about 10 minutes. Please don\'t refresh the page. ','pl-emallshop-extensions'); ?>
 								</p>
 								<div class="import-options">
-									<?php 
+									<?php
 										foreach($this->import_items as $key => $item){
 										?>
 										<label for="<?php echo $key?>_{{data.demo_key}}">
@@ -515,14 +515,14 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 										</label>
 										<?php
 										}
-										?>	
+										?>
 								</div>
 								<div class="import-process" style="display:none">
 									<div class="progress-percent">0%</div>
 									<div class="progress-bar"></div>
 								</div>
 								<div class="button install-demo disabled" data-demo='{{data.demo_key}}'><?php esc_html_e('Install Demo','pl-emallshop-extensions');?></div>
-								
+
 								<div id="installation-progress">{{data.process_msg}}</div>
 							<?php } ?>
 						</div>
@@ -530,19 +530,19 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 				</script>
 			</div> <?php
 		}
-		
+
 		public function get_token_key(){
 			return get_option( 'emallshop_token_key');
 		}
-		
+
 		public function get_purchase_code(){
 			return get_option( $this->option_name);
 		}
 		public function theme_token_key_exist(){
-			global $wp_version;	
+			global $wp_version;
 			$purchase_code = $this->get_purchase_code();
 			$token_key = $this->get_token_key();
-			$item_id = $this->item_id;	
+			$item_id = $this->item_id;
 			$response = wp_remote_request($this->api_url.'/importdemo.php', array(
 					'user-agent' => 'WordPress/'.$wp_version.'; '. home_url( '/' ) ,
 					'method' => 'POST',
@@ -555,8 +555,8 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 			);
 
 			$response_code = wp_remote_retrieve_response_code( $response );
-			$activate_info = wp_remote_retrieve_body( $response );			
-			$return = false;
+			$activate_info = wp_remote_retrieve_body( $response );
+			$return = true;
 			if ( $response_code != 200 || is_wp_error( $activate_info ) ) {
 				$return = true;
 			}
@@ -566,10 +566,10 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 					$return = true;
 				}
 			}
-			
+
 			return $return;
 		}
-		
+
 		public function emallshop_ajax_get_demo_data(){
 			$demo_name = isset($_POST['demo']) ? $_POST['demo'] :'';
 			$demo_data = $this->data_demos[$demo_name];
@@ -579,26 +579,26 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 				$demo_data = array();
 				$demo_data['status'] = false;
 				$demo_data['message']	= 'Something went wrong!!';
-			}			
+			}
 			echo json_encode($demo_data);
 			die();
 		}
-		
+
 		public function import_full_content(){
 			$demo_name = isset($_POST['demo_name']) ? $_POST['demo_name'] :'';
 			echo $demo_name.' import_full_content';
 			die();
 		}
-		
+
 		public function import_content(){
 			$demo_name 			= isset($_POST['demo_name']) ? $_POST['demo_name'] :'default';
 			$content_count 		= isset($_POST['count']) ? $_POST['count'] :'1';
 			$attachments 		= isset($_POST['attachments']) ? $_POST['attachments'] :false;
-			
+
 			$conetnt_data_file 	= ES_EXTENSIONS_PATH . 'inc/admin/importer/demo-data/content-'.$content_count.'.xml';
 			$content_import 	= get_option('emallshop_content_import',false);
 			if ( current_user_can( 'manage_options' ) && !$content_import) {
-				
+
 				if ( !defined('WP_LOAD_IMPORTERS') ) define('WP_LOAD_IMPORTERS', true); // we are loading importers
 
 				if ( ! class_exists( 'WP_Importer' ) ) { // if main importer class doesn't exist
@@ -610,20 +610,20 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 					$wp_import = ES_EXTENSIONS_PATH . 'inc/admin/importer/wordpress-importer.php';
 					include $wp_import;
 				}
-				if ( class_exists( 'WP_Importer' ) && class_exists( 'WP_Import' ) ) { 
+				if ( class_exists( 'WP_Importer' ) && class_exists( 'WP_Import' ) ) {
 					/* Import Posts, Pages, Product, Portfolio Content, Blocks, Images, Menus */
 					$importer = new WP_Import();
 					$importer->fetch_attachments = $attachments;
 					ob_start();
 					//set_time_limit(0);
 					$importer->import($conetnt_data_file);
-					ob_end_clean();					
+					ob_end_clean();
 					// Flush rules after install
-					flush_rewrite_rules();			
+					flush_rewrite_rules();
 				}
 				update_option('emallshop_content_import',1);
 				echo 'Import content successfully';
-			}			
+			}
 			die();
 		}
 		public function import_menu(){
@@ -633,7 +633,7 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 			$menu_locations =$demo_data['settings']['menu'];
         	$locations = get_theme_mod('nav_menu_locations');
             $menus = wp_get_nav_menus();
-            
+
             if( !empty( $menu_locations) ){
                 if ($menus) {
                     foreach ($menus as $menu) {
@@ -643,9 +643,9 @@ if ( ! class_exists( 'Emallshop_Import' ) )
                             }
                         }
                     }
-                }                
+                }
                 set_theme_mod('nav_menu_locations', $menu_location);
-            }			
+            }
 			die();
 		}
 		public function import_theme_options(){
@@ -664,15 +664,15 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 			}
 			die();
 		}
-		
+
 		/* Import Widget */
 		function import_widget() {
-			
+
 			$demo_name = isset($_POST['demo_name']) ? $_POST['demo_name'] :'basic';
 			$demo_data = $this->data_demos[$demo_name];
 			$data_file_url = ES_EXTENSIONS_URL.'inc/admin/importer/demo-data/'.$demo_data['slug'].'/'.$demo_data['widgets'];
 			$widget_data = $this->emallshop_get_remote_content($data_file_url);
-			
+
 			/* Clear Widgets */
 			$sidebars = wp_get_sidebars_widgets();
 			$inactive = isset($sidebars['wp_inactive_widgets']) && is_array( $sidebars['wp_inactive_widgets'] ) ? $sidebars['wp_inactive_widgets'] : array();
@@ -689,8 +689,8 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 
 			$sidebars['wp_inactive_widgets'] = $inactive;
 			wp_set_sidebars_widgets( $sidebars );
-			/* End Clear Widgets */			
-			
+			/* End Clear Widgets */
+
 			$widget_data = json_decode( $widget_data, true);
 			unset($widget_data[0]['wp_inactive_widgets']);
 
@@ -814,11 +814,11 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 			$new_widget_name = $widget_name . '-' . $widget_index;
 			return $new_widget_name;
 		}
-		
+
 		public function import_revslider(){
-			$demo_name = isset($_POST['demo_name']) ? $_POST['demo_name'] :'default';			
+			$demo_name = isset($_POST['demo_name']) ? $_POST['demo_name'] :'default';
 			$demo_data = $this->data_demos[$demo_name];
-			
+
 			if ( !empty($demo_data['revslider_path']) && class_exists( 'UniteFunctionsRev' ) && class_exists( 'ZipArchive' ) ){
 				// Import Revslider
 				$rev_files = array();
@@ -827,12 +827,12 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 					$rev_files[] = $demo_data['revslider_path'] . $filename;
 				}
 				if(!function_exists( 'WP_Filesystem' )){
-					require_once( ABSPATH . 'wp-admin/includes/file.php' );	
+					require_once( ABSPATH . 'wp-admin/includes/file.php' );
 				}
-							
-				$slider = new RevSlider();				
+
+				$slider = new RevSlider();
 				foreach( $rev_files as $rev_file ) { // finally import rev slider data files
-					$filepath = $rev_file;						
+					$filepath = $rev_file;
 					ob_start();
 						$result = $slider->importSliderFromPost( true, false, $filepath );
 					ob_clean();
@@ -841,14 +841,14 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 			}
 			die();
 		}
-		
+
 		public function find_menu_id_by_title($menu_name = 'Primary Menu',$menu_item_title = 'Shop'){
 			$main_menu = get_term_by( 'name', $menu_name, 'nav_menu' );
 			$menu_list_items = wp_get_nav_menu_items($menu_name);
 			if(!empty($menu_list_items)){
 				$selected_menu_item = array_filter( $menu_list_items, function( $item ) use($menu_item_title) {
 					return $item->title == $menu_item_title;
-				});			
+				});
 				$current_item = array_shift( $selected_menu_item );
 				if($current_item){
 					return $current_item->ID;
@@ -856,10 +856,10 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 			}
 			return false;
 		}
-		
+
 		public function mega_menu_setup(){
 			$primary_menu = array(
-				'Home' => array(					
+				'Home' => array(
 					'_menu_item_emallshop_megamenu_status' => 'enabled',
 					'_menu_item_emallshop_megamenu_columns' => 'auto',
 				),
@@ -872,7 +872,7 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 					'_menu_item_emallshop_megamenu_columns' => 'auto',
 				),
 			);
-			
+
 			$categories_menu = array(
 				'Men & Women' => array(
 					'_menu_item_type' => 'taxonomy',
@@ -890,71 +890,71 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 					'_menu_item_emallshop_megamenu_widgetarea' => 'menu-widget-area-1',
 				),
 			);
-			
-			
+
+
 			foreach ($primary_menu as $menu_page => $meta_data) {
 				$menu_id = $this->find_menu_id_by_title('Primary menu',$menu_page);
 				if($menu_id){
-					foreach ($meta_data as $key => $value) {				
+					foreach ($meta_data as $key => $value) {
 						update_post_meta( $menu_id, $key, $value);
 					}
 				}
-			} 
-			
+			}
+
 			foreach ($categories_menu as $menu_page => $meta_data) {
 				$menu_id = $this->find_menu_id_by_title('Vertical Menu',$menu_page);
 				if($menu_id){
-					foreach ($meta_data as $key => $value) {				
+					foreach ($meta_data as $key => $value) {
 						update_post_meta( $menu_id, $key, $value);
 					}
 				}
 			}
 		}
-		
-		public function import_config(){			
+
+		public function import_config(){
 			$demo_name 		= isset($_POST['demo_name']) ? $_POST['demo_name'] :'default';
 			$demo_data 		= $this->data_demos[$demo_name];
 			$pages 			= $demo_data['settings']['pages'];
 			$this->mega_menu_setup();
-			$this->after_import();						
-			
+			$this->after_import();
+
 			foreach ( $pages as $page_name => $page_title ) {
 				$page = get_page_by_title( $page_title );
-				if ( isset( $page->ID ) && $page->ID ) {					
+				if ( isset( $page->ID ) && $page->ID ) {
 					update_option( $page_name, $page->ID );
 				}
 			}
-			
+
 			if ( class_exists( 'YITH_Woocompare' ) ) {
 				update_option( 'yith_woocompare_compare_button_in_products_list', 'yes' );
 				update_option( 'yith_woocompare_is_button', 'button' );
 			}
-			
+
 			if ( class_exists( 'YITH_WCWL_Init' ) ) {
 				update_option( 'yith_wcwl_enabled', 'yes' );
 				$page = get_page_by_title( 'My Wishlist' );
 				if ( isset( $page->ID ) && $page->ID ) {
 					update_option( 'yith_wcwl_wishlist_page_id', $page->ID );
-				}				
+				}
 			}
-			
+
 			/*WooCommerce Exists */
 			if( class_exists('Woocommerce') ) {
 				if ( class_exists( 'WC_Admin_Notices' ) ) {
 					WC_Admin_Notices::remove_notice( 'install' );
 				}
-				
+
 				//Fix On Sale Products widget and elements
-					
+
 				if ( ! wc_update_product_lookup_tables_is_running() ) {
 					wc_update_product_lookup_tables();
 				}
 				update_option( 'woocommerce_enable_myaccount_registration', 'yes' );
 				delete_option( '_wc_needs_pages' );
-				delete_transient( '_wc_activation_redirect' );	
-				delete_transient( 'wc_products_onsale' );		
+				delete_transient( '_wc_activation_redirect' );
+				delete_transient( 'wc_products_onsale' );
 			}
-			
+
 			if ( isset( $demo_data['homepage'] ) && $demo_data['homepage'] != "" ) {
 				// Home page
 				$homepage = get_page_by_title( $demo_data['homepage'] );
@@ -971,22 +971,22 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 					update_option( 'page_for_posts', $post_page->ID );
 				}
 			}
-			
+
 			update_option( 'emallshop_demo_'.$demo_name, 'yes' );
-			
+
 			flush_rewrite_rules();
-			
+
 			die();
 		}
-		
+
 		public function after_import(){
 			// Move Hello World post to trash
 			wp_trash_post( 1 );
-			 
+
 			// Move Sample Page to trash
-			wp_trash_post( 2 );			
+			wp_trash_post( 2 );
 		}
-		
+
 		public function emallshop_get_remote_content( $url) {
 			$response = wp_remote_get($url);
 			if( is_array($response) && $response['response']['code'] !== 404 ) {
@@ -996,8 +996,8 @@ if ( ! class_exists( 'Emallshop_Import' ) )
 			}
 			return false;
 		}
-	
+
 	}
 	global $obj_emallshop_import;
-	$obj_emallshop_import = new Emallshop_Import();	
+	$obj_emallshop_import = new Emallshop_Import();
 }

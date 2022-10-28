@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'zalopay_store_wp' );
+define( 'DB_NAME', 'nev65097_nevafarm' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'nev65097_nevafarm' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'Abcd@1234' );
+define( 'DB_PASSWORD', '2qY2@w00r' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );

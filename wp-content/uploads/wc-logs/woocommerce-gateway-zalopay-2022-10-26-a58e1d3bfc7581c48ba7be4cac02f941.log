@@ -1,0 +1,126 @@
+2022-10-26T16:55:00+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+create postData: Array
+(
+    [app_id] => 2554
+    [app_user] => admin
+    [app_trans_id] => 221026_635903f41a76a
+    [app_time] => 1666778100108
+    [amount] => 90000
+    [description] => Payment for order #2158
+    [item] => [{"Sản phẩm test thanh toán":{"quantity":1,"price":"90000"}}]
+    [embed_data] => {"redirecturl":"http:\/\/localhost:8888\/zalopaystore?order-received=2158&key=wc_order_JaWHYXlAcmNkB&page_id=8","orderID":2158}
+    [bank_code] => zalopayapp
+    [mac] => a6080a72e98725ee2f1ff266ac4fc60fcf6d547c83f329a4b27b73ce3851f2dc
+    [source] => web
+)
+
+====End Log====
+
+
+2022-10-26T16:55:00+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+create endpoint: https://sb-openapi.zalopay.vn/v2/create
+====End Log====
+
+
+2022-10-26T16:55:48+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-26T16:55:48+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-26T18:54:16+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-26T18:54:16+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-26T18:54:16+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+Info: Beginning Admin refund for order 2158 for the amount of 90000
+====End Log====
+
+
+2022-10-26T18:54:16+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+refund postData: Array
+(
+    [app_id] => 2554
+    [m_refund_id] => 221026_2554_63591fe88d992
+    [zp_trans_id] => 
+    [amount] => 90000
+    [timestamp] => 1666785256580
+    [description] => Admin refund for order 2158 amount: 90000
+    [mac] => aa6aebc1f31028b3e8c0ac031ec25c97580d7f5c22c7d716373c9819e5d844b2
+)
+
+====End Log====
+
+
+2022-10-26T18:54:16+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+refund endpoint: https://sb-openapi.zalopay.vn/v2/refund
+====End Log====
+
+
+2022-10-26T18:54:16+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+Refund order 2158 success
+====End Log====
+
+
+2022-10-26T18:55:51+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-26T18:55:51+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+

@@ -1,0 +1,345 @@
+2022-10-12T15:28:19+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:28:19+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:28:25+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:28:45+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:29:12+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:29:12+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:29:33+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:29:33+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:29:33+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:29:34+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:29:36+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:29:53+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:29:53+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:29:58+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:30:39+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:30:39+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:31:23+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:31:24+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:33:35+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:33:37+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:34:02+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:52:11+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+
+2022-10-12T15:52:12+07:00 CRITICAL Uncaught ValueError: Missing format specifier at end of string in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php:157
+Stack trace:
+#0 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(157): sprintf('Edit %', 'Portfolio Categ...')
+#1 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php(86): EmallShop_Post_Content->getTaxonomyLabels('Portfolio Categ...', 'Portfolio Categ...')
+#2 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(307): EmallShop_Post_Content->emallshop_addPortfolioContentType('')
+#3 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-settings.php(587): do_action('init')
+#6 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-config.php(96): require_once('/Users/vuducthu...')
+#7 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-load.php(50): require_once('/Users/vuducthu...')
+#8 /Users/vuducthuan/Sites/localhost/zalopaystore/wp-blog-header.php(13): require_once('/Users/vuducthu...')
+#9 /Users/vuducthuan/Sites/localhost/zalopaystore/index.php(17): require('/Users/vuducthu...')
+#10 {main}
+  thrown in /Users/vuducthuan/Sites/localhost/zalopaystore/wp-content/plugins/pl-emallshop-extensions/posts/posts-content.php on line 157
+

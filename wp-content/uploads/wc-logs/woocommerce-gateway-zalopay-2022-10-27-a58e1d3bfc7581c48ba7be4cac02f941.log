@@ -1,0 +1,646 @@
+2022-10-27T10:00:57+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T10:00:57+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T10:01:44+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T10:01:44+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T10:02:51+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T10:02:51+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T10:17:35+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T10:17:35+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T10:19:52+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T10:19:52+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T12:10:54+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T12:10:54+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T12:12:12+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T12:12:12+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T12:13:10+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T12:13:10+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T12:15:08+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T12:15:08+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T12:17:13+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T12:17:13+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T12:19:07+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T12:19:07+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T12:21:10+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T12:21:10+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T12:30:51+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221026_635903f41a76a
+    [mac] => 8739ec6e24936184b7de098c58650abb52c5f4dd6dc79aac2f7354ffdac04e87
+)
+
+====End Log====
+
+
+2022-10-27T12:30:51+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T13:37:03+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+create postData: Array
+(
+    [app_id] => 2554
+    [app_user] => admin
+    [app_trans_id] => 221027_635a270fc8ca7
+    [app_time] => 1666852623822
+    [amount] => 90000
+    [description] => Payment for order #2161
+    [item] => [{"Sản phẩm test thanh toán":{"quantity":1,"price":"90000"}}]
+    [embed_data] => {"redirecturl":"http:\/\/localhost:8888\/zalopaystore?order-received=2161&key=wc_order_6pvxWgAVuVvYc&page_id=8","orderID":2161}
+    [bank_code] => zalopayapp
+    [mac] => 9023d0a62aac07f03de8f324a83a5c91cd364ca278771214f01ff95deb6c91d1
+    [source] => web
+)
+
+====End Log====
+
+
+2022-10-27T13:37:03+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+create endpoint: https://sb-openapi.zalopay.vn/v2/create
+====End Log====
+
+
+2022-10-27T13:37:14+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T13:37:14+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T13:39:21+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T13:39:21+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T13:40:12+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T13:40:12+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T13:42:13+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T13:42:13+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T13:44:18+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T13:44:18+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T13:46:15+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T13:46:15+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T13:48:18+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T13:48:18+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T13:50:15+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T13:50:15+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T13:58:37+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T13:58:37+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T14:00:11+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T14:00:11+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T14:01:10+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T14:01:10+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T14:02:09+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T14:02:09+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T14:03:11+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T14:03:11+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T14:05:09+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T14:05:09+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T14:06:17+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T14:06:17+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T14:07:29+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query postData: Array
+(
+    [app_id] => 2554
+    [app_trans_id] => 221027_635a270fc8ca7
+    [mac] => 994b939eb3bcb17dc5ac0fa0a3bb57cfb0871d1acbfaade01de121b8ef0e089b
+)
+
+====End Log====
+
+
+2022-10-27T14:07:29+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+query endpoint: https://sb-openapi.zalopay.vn/v2/query
+====End Log====
+
+
+2022-10-27T15:25:12+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+Info: Beginning Admin refund for order 2161 for the amount of 90000
+====End Log====
+
+
+2022-10-27T15:25:12+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+refund postData: Array
+(
+    [app_id] => 2554
+    [m_refund_id] => 221027_2554_635a4068718ff
+    [zp_trans_id] => 
+    [amount] => 90000
+    [timestamp] => 1666859112465
+    [description] => Admin refund for order 2161 amount: 90000
+    [mac] => 055513fe1407fc268b78fdb9f30c9d7d70f5e057effd7eaf7e0bec9e3ac53e91
+)
+
+====End Log====
+
+
+2022-10-27T15:25:12+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+refund endpoint: https://sb-openapi.zalopay.vn/v2/refund
+====End Log====
+
+
+2022-10-27T15:25:12+07:00 DEBUG 
+====ZaloPay Version: v2====
+====Start Log====
+Refund order 2161 success
+====End Log====
+
+

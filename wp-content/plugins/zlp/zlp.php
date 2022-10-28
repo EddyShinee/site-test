@@ -103,7 +103,7 @@ function zlp_init() {
 			 *
 			 * @return void
 			 */
-			private function __wakeup() {}
+			public function __wakeup() {}
 
 			/**
 			 * Protected constructor to prevent creating a new instance of the
@@ -202,7 +202,7 @@ function zlp_init() {
 				$sections['zlp']            = __( 'ZaloPay', 'woocommerce-gateway-zalopay' );
 				$sections['zlp_atm']       	= __( 'ZaloPay (ATM)', 'woocommerce-gateway-zalopay' );
 				return $sections;
-			}			
+			}
 		}
 
 		Zlp::get_instance();
@@ -219,7 +219,7 @@ function zlp_cron_job($orderID)
 	if ($isCallbackReceived || ($callInterVal != NULL && $callInterVal >= 15) ) {
 		wp_unschedule_event( $timestamp, ZLP_QUERY_QUEUE, [$orderID]);
 	}
-	
+
 	if ($callInterVal == NULL) {
 		update_post_meta($orderID, 'zlp_call_interval', 1);
 	} else {
